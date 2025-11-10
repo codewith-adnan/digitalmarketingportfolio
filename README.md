@@ -20,13 +20,13 @@ Follow these steps to run My Portfolio in your local machine.
 ### Clone this repository
 
 ```bash
-git clone https://github.com/Pappyjay23/my-portfolio-1.git
+# git clone https://github.com/Pappyjay23/my-portfolio-1.git
 ```
 
 ### Navigate to directory
 
 ```bash
-cd my-portfolio-1
+# cd my-portfolio-1
 ```
 
 ### Install NPM
@@ -53,4 +53,4 @@ npm run build
 
 ## Credits ✍
 
-Implementation by [@Pappyjay23](https://github.com/Pappyjay23)
+<!-- Implementation by [@Pappyjay23](https://github.com/Pappyjay23) -->
