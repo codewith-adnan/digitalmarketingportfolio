@@ -1,97 +1,61 @@
-import { DiJavascript1 } from "react-icons/di";
 import {
-	FaCss3Alt,
-	FaFigma,
-	FaGithub,
-	FaHtml5,
-	FaReact,
-	FaSass,
+    FaGoogle,
+    FaFacebookSquare,
+    FaInstagram,
+    FaLinkedin,
+    FaRegLightbulb,   // For Strategy (alternative: FaBrain, FaCogs)
+    FaChartBar,       // For Analytics (alternative: FaChartLine)
+    FaSearch,         // For SEO (alternative: FaSearchDollar)
+    FaClipboardList,  // For Research Skills (alternative: FaSearchPlus)
+    FaPencilAlt,      // For Content Creation (alternative: FaEdit)
+    FaCog,            // For Social Media Management (alternative: FaCogs, FaTools)
 } from "react-icons/fa";
-import { RiVuejsLine } from "react-icons/ri";
-import {
-	SiAdobephotoshop,
-	SiFirebase,
-	SiFramer,
-	SiNextdotjs,
-	SiRedux,
-	SiStyledcomponents,
-	SiTailwindcss,
-	SiTypescript,
-} from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
-import Gsap from "../vectors/gsap";
+
+// No more imports from "react-icons/md", "react-icons/ri", "react-icons/bi", "react-icons/ai"
 
 export const SkillsData = [
 	{
-		name: "HTML",
-		icon: <FaHtml5 />,
+		name: "Digital Strategy",
+		icon: <FaRegLightbulb />, // Changed from MdOutlineStrategy to FaRegLightbulb (idea/strategy)
 	},
 	{
-		name: "CSS",
-		icon: <FaCss3Alt />,
+		name: "Analytical Skills",
+		icon: <FaChartBar />, // Changed from MdAnalytics to FaChartBar (bar chart for data/analytics)
 	},
 	{
-		name: "Javascript",
-		icon: <DiJavascript1 />,
+		name: "SEO",
+		icon: <FaSearch />, // Changed from MdOutlineSearch to FaSearch (general search)
 	},
 	{
-		name: "TypeScript",
-		icon: <SiTypescript />,
+		name: "Social Media Marketing",
+		icon: <FaFacebookSquare />, // Already FaIcon
 	},
 	{
-		name: "React Js",
-		icon: <FaReact />,
+		name: "Research Skills",
+		icon: <FaClipboardList />, // Changed from BiSearchAlt to FaClipboardList (list/research focus)
 	},
 	{
-		name: "Next Js",
-		icon: <SiNextdotjs />,
+		name: "Google Ads",
+		icon: <FaGoogle />, // Already FaIcon
 	},
 	{
-		name: "Vue Js",
-		icon: <RiVuejsLine />,
+		name: "Content Creation",
+		icon: <FaPencilAlt />, // Changed from BiPencil to FaPencilAlt (pencil/edit for content)
 	},
 	{
-		name: "React Native",
-		icon: <TbBrandReactNative />,
+		name: "Social Media Management",
+		icon: <FaCog />, // Changed from AiOutlineSetting to FaCog (gear for management/settings)
 	},
-	{
-		name: "Redux",
-		icon: <SiRedux />,
-	},
-	{
-		name: "Firebase",
-		icon: <SiFirebase />,
-	},
-	{
-		name: "Tailwind",
-		icon: <SiTailwindcss />,
-	},
-	{
-		name: "Sass",
-		icon: <FaSass />,
-	},
-	{
-		name: "Styled Components",
-		icon: <SiStyledcomponents />,
-	},
-	{
-		name: "Framer Motion",
-		icon: <SiFramer />,
-	},
-	{
-		name: "GSAP",
-		icon: <Gsap />,
-	},
-	{
-		name: "Git",
-		icon: <FaGithub />,
-	},
-	{
-		name: "Figma",
-		icon: <FaFigma />,
-	},
-	{
-		name: "Photoshop",
-		icon: <SiAdobephotoshop />,
-	},
+    {
+        name: "Facebook Marketing",
+        icon: <FaFacebookSquare />, // Already FaIcon
+    },
+    {
+        name: "Instagram Marketing",
+        icon: <FaInstagram />, // Already FaIcon
+    },
+    {
+        name: "LinkedIn Marketing",
+        icon: <FaLinkedin />, // Already FaIcon
+    },
 ];

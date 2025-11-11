@@ -5,7 +5,6 @@ import { BiDownload } from "react-icons/bi";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
-import CV from "../data/Peace Jinadu-Paul Resume.pdf";
 
 const HeroSection = ({ nav, handleNav }) => {
 	const scrollToTop = () => {
@@ -94,19 +93,19 @@ const HeroSection = ({ nav, handleNav }) => {
 				whileInView='visible'
 				className='hero-content'>
 				<p className='hero-intro'>
-					<span>Peace</span> <span>Jinadu-Paul.</span>
+					<span>Peace</span> <span>Muhammad Ali Bajwa.</span>
 				</p>
 				<p className='hero-desc'>
-					I'm a <span className='hero-desc-sub'>Front End Developer.</span>
+					I'm a <span className='hero-desc-sub'>Digital Marketer.</span>
 				</p>
 			</motion.div>
 			<motion.span
 				variants={contactVariants}
 				initial='hidden'
 				whileInView='visible'>
-				<a href={CV} download='Peace Jinadu-Paul CV' className='hero-contact'>
-					Download CV <BiDownload className='cv-icon' />
-				</a>
+				<p  download='Peace Jinadu-Paul CV' className='hero-contact'>
+					Hire Me <BiDownload className='cv-icon' />
+				</p>
 			</motion.span>
 		</div>
 	);

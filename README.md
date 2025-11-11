@@ -13,16 +13,16 @@
 - [Create React App](https://create-react-app.dev/) - Build tool
 - [Netlify](https://www.netlify.com/) - Hosting and Deployment
 
-## How to run locally 💻
+<!-- ## How to run locally 💻 -->
 
-Follow these steps to run My Portfolio in your local machine.
+<!-- Follow these steps to run My Portfolio in your local machine.
 
 ### Clone this repository
 
 ```bash
-# git clone https://github.com/Pappyjay23/my-portfolio-1.git
-```
-
+git clone https://github.com/Pappyjay23/my-portfolio-1.git
+``` -->
+<!-- 
 ### Navigate to directory
 
 ```bash
@@ -32,18 +32,18 @@ Follow these steps to run My Portfolio in your local machine.
 ### Install NPM
 
 ```bash
-npm install
+npm install -->
 ```
 
-### Run
+<!-- ### Run
 
 Run the development server to view the app.
 
 ```bash
 npm start
-```
+``` -->
 
-Now, you can navigate to http://localhost:3000/ to view the app.
+<!-- Now, you can navigate to http://localhost:3000/ to view the app.
 
 ### Build
 
@@ -51,6 +51,6 @@ Now, you can navigate to http://localhost:3000/ to view the app.
 npm run build
 ```
 
-## Credits ✍
+## Credits ✍ -->
 
 <!-- Implementation by [@Pappyjay23](https://github.com/Pappyjay23) -->

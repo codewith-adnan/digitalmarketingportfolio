@@ -1,18 +1,43 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FaLinkedin, FaTwitter} from "react-icons/fa"
-import {BiEnvelope} from "react-icons/bi"
-import {BsGithub} from "react-icons/bs"
+// Remove Link if you're only using <a> tags, or keep it if you have actual internal links elsewhere
+// import { Link } from 'react-router-dom'; // Keep this only if you have internal app links
 
-const NavLinks = ({handleNav}) => {
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { BiEnvelope } from "react-icons/bi";
+import { BsGithub } from "react-icons/bs";
+
+const NavLinks = ({ handleNav }) => {
   return (
     <ul className='nav-links'>
-        <li onClick={handleNav} ><Link  to="//twitter.com/_pappy_jay_" target='_blank' className='nav-link'><FaTwitter /></Link></li>
-        <li onClick={handleNav} ><Link  to="//www.linkedin.com/in/pappyjay" target='_blank' className='nav-link'><FaLinkedin /></Link></li>
-        <li onClick={handleNav} ><Link  to="//github.com/Pappyjay23" target='_blank' className='nav-link'><BsGithub /></Link></li>
-        <li onClick={handleNav} ><a  href="mailto:pjinadu02@gmail.com" target='_blank' className='nav-link' rel="noreferrer"><BiEnvelope /></a></li>
-  </ul>
-  )
+      {/* Instagram - Use <a> tag */}
+      <li onClick={handleNav}>
+        <a href="https://www.instagram.com/bajwaa311" target='_blank' rel="noopener noreferrer" className='nav-link'>
+          <FaInstagram />
+        </a>
+      </li>
+
+      {/* LinkedIn - Use <a> tag */}
+      <li onClick={handleNav}>
+        <a href="https://www.linkedin.com/in/muhammad-ali-a48b99209" target='_blank' rel="noopener noreferrer" className='nav-link'>
+          <FaLinkedin />
+        </a>
+      </li>
+
+      {/* GitHub - Use <a> tag */}
+      <li onClick={handleNav}>
+        <a href="https://github.com/Pappyjay23" target='_blank' rel="noopener noreferrer" className='nav-link'>
+          <BsGithub />
+        </a>
+      </li>
+
+      {/* Email - Already correct with <a> tag */}
+      <li onClick={handleNav}>
+        <a href="mailto:bajwaa311@gmail.com" target='_blank' rel="noopener noreferrer" className='nav-link'>
+          <BiEnvelope />
+        </a>
+      </li>
+    </ul>
+  );
 };
 
 export default NavLinks;
