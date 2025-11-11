@@ -1,10 +1,28 @@
 import React from 'react';
 import "../styles/Services.css"
-import {IoColorWandOutline} from "react-icons/io5"
-import {BiCodeAlt} from "react-icons/bi"
 import { motion } from "framer-motion";
 
+// Import new icons you provided
+import { FaGoogle, FaSearch } from "react-icons/fa"; // Assuming these are from react-icons/fa
+
 const Services = () => {
+
+   // Define your services data dynamically
+   const myServices = [
+    
+    
+    {
+        name: "Google Ads",
+        icon: <FaGoogle />,
+        description: "Developing and managing highly effective Google Ads campaigns to drive targeted traffic and maximize ROI. From keyword research to ad copy and bid management, I optimize for conversions."
+    },
+    {
+        name: "SEO",
+        icon: <FaSearch />,
+        description: "Improving organic search engine rankings to increase visibility and attract more qualified leads. I implement on-page, off-page, and technical SEO strategies to boost your online presence."
+    }
+    // You can add more services here if needed
+   ];
 
    const fade = {
     opacity: 1,
@@ -22,16 +40,13 @@ const Services = () => {
                     <p className='heading-text'>Services</p>
                 </motion.div>
                 <motion.div className="services-box" whileInView={fade} initial={{opacity: 0}}>
-                    <div className="services-card">
-                        <BiCodeAlt className='services-icon' />
-                        <p className='services-title'>Web Development</p>
-                        <p className='services-desc'>I use various web technologies to develop attractive,creative, interactive, responsive and functional website layouts. </p>
-                    </div>
-                    <div className="services-card">
-                        <IoColorWandOutline className='services-icon' />
-                        <p className='services-title'>UI Design</p>
-                        <p className='services-desc'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
-                    </div>
+                    {myServices.map((service, index) => (
+                        <div className="services-card" key={index}> {/* Added key for list rendering */}
+                            {service.icon && React.cloneElement(service.icon, { className: 'services-icon' })} {/* Render icon and add class */}
+                            <p className='services-title'>{service.name}</p>
+                            <p className='services-desc'>{service.description}</p>
+                        </div>
+                    ))}
                 </motion.div>
               </div>
           </div>

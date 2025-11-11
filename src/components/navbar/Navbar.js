@@ -4,7 +4,7 @@ import { FaHome, FaLaptop } from "react-icons/fa";
 import { BiBookContent, BiServer, BiEnvelope } from "react-icons/bi";
 import { FiUser } from "react-icons/fi";
 import { Link } from "react-scroll";
-import ProfileImg from "../../images/profile_me.jpg";
+import ProfileImg from "../../images/ali bajwa.PNG";
 import NavLinks from "./NavLinks";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
@@ -56,7 +56,7 @@ const Navbar = ({ nav, handleNav }) => {
 							onClick={handleNav}
 							to='home'
 							className='profile-name'>
-							Peace Jinadu-Paul
+							Peace Ali-Bajwa
 						</Link>
 						<NavLinks handleNav={handleNav} />
 					</div>

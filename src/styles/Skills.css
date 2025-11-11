@@ -19,6 +19,10 @@
     align-items: center;
     text-align: center;
 }
+.skill-card:hover {
+    box-shadow: inset 6px 6px 30px rgb(75, 75, 75);
+    border: none;
+}
 
 .skill-icon {
     font-size: 2rem;
@@ -26,11 +30,10 @@
 }
 
 .skill-desc {
-    font-size: 1.3rem;
+    font-size: 1rem;
     letter-spacing: 1px;
 }
 
-/* Media Queries */
 @media screen and (max-width: 1000px) {
     .skills-box {
         display: grid;
