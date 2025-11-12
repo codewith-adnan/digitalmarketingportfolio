@@ -1,9 +1,9 @@
 <div align="center">
-	<h1> My Portfolio </h1>
+	<h1> Digital Marketer PortFolio </h1>
 </div>
 
-## Snapshot 📸
-![Portfolio Landing Page](https://user-images.githubusercontent.com/60526129/220429098-094368a0-c117-4036-a113-a625cf563c3c.png)
+## Snapshot 
+![Portfolio Landing Page](https://github.com/codewith-adnan/digitalmarketingportfolio/issues/1#issue-3615217951)
 
 
 ## Tech Stack ✨
@@ -11,7 +11,9 @@
 - [React.js](https://reactjs.org/) - UI Library
 - [Framer Motion](https://www.framer.com/motion/) - Animations
 - [Create React App](https://create-react-app.dev/) - Build tool
-- [Netlify](https://vercel.com/) - Hosting and Deployment
+- [Vercel](https://vercel.com/) - Hosting and Deployment
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 
 <!-- ## How to run locally 💻 -->
 
@@ -35,22 +37,8 @@ git clone https://github.com/Pappyjay23/my-portfolio-1.git
 npm install -->
 ```
 
-<!-- ### Run
 
-Run the development server to view the app.
 
-```bash
-npm start
-``` -->
-
-<!-- Now, you can navigate to http://localhost:3000/ to view the app.
-
-### Build
-
-```bash
-npm run build
-```
-
-## Credits ✍ -->
+## Credits ✍ 
 
 Implementation by [@codewith-adnan](https://github.com/codewith-adnan)
