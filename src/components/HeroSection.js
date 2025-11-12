@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "../styles/HeroSection.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { BiDownload } from "react-icons/bi";
+import { FaHandshake} from "react-icons/fa";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import { animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll, Link } from "react-scroll"; 
 import { motion } from "framer-motion";
 
 const HeroSection = ({ nav, handleNav }) => {
@@ -103,9 +103,17 @@ const HeroSection = ({ nav, handleNav }) => {
 				variants={contactVariants}
 				initial='hidden'
 				whileInView='visible'>
-				<p  download='Peace Jinadu-Paul CV' className='hero-contact'>
-					Hire Me <BiDownload className='cv-icon' />
-				</p>
+				
+				<Link
+					to='contact' 
+					spy={true}
+					smooth={true}
+					offset={-70} 
+					duration={3000} 
+					className='hero-contact'
+				>
+					Hire Me <FaHandshake className='cv-icon' />
+				</Link>
 			</motion.span>
 		</div>
 	);

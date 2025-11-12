@@ -3,59 +3,58 @@ import {
     FaFacebookSquare,
     FaInstagram,
     FaLinkedin,
-    FaRegLightbulb,   // For Strategy (alternative: FaBrain, FaCogs)
-    FaChartBar,       // For Analytics (alternative: FaChartLine)
-    FaSearch,         // For SEO (alternative: FaSearchDollar)
-    FaClipboardList,  // For Research Skills (alternative: FaSearchPlus)
-    FaPencilAlt,      // For Content Creation (alternative: FaEdit)
-    FaCog,            // For Social Media Management (alternative: FaCogs, FaTools)
+    FaRegLightbulb,   
+    FaChartBar,      
+    FaSearch,        
+    FaClipboardList, 
+    FaPencilAlt,      
+    FaCog,            
 } from "react-icons/fa";
 
-// No more imports from "react-icons/md", "react-icons/ri", "react-icons/bi", "react-icons/ai"
 
 export const SkillsData = [
 	{
 		name: "Digital Strategy",
-		icon: <FaRegLightbulb />, // Changed from MdOutlineStrategy to FaRegLightbulb (idea/strategy)
+		icon: <FaRegLightbulb />, 
 	},
 	{
 		name: "Analytical Skills",
-		icon: <FaChartBar />, // Changed from MdAnalytics to FaChartBar (bar chart for data/analytics)
+		icon: <FaChartBar />, 
 	},
 	{
 		name: "SEO",
-		icon: <FaSearch />, // Changed from MdOutlineSearch to FaSearch (general search)
+		icon: <FaSearch />, 
 	},
 	{
 		name: "Social Media Marketing",
-		icon: <FaFacebookSquare />, // Already FaIcon
+		icon: <FaFacebookSquare />, 
 	},
 	{
 		name: "Research Skills",
-		icon: <FaClipboardList />, // Changed from BiSearchAlt to FaClipboardList (list/research focus)
+		icon: <FaClipboardList />, 
 	},
 	{
 		name: "Google Ads",
-		icon: <FaGoogle />, // Already FaIcon
+		icon: <FaGoogle />, 
 	},
 	{
 		name: "Content Creation",
-		icon: <FaPencilAlt />, // Changed from BiPencil to FaPencilAlt (pencil/edit for content)
+		icon: <FaPencilAlt />, 
 	},
 	{
 		name: "Social Media Management",
-		icon: <FaCog />, // Changed from AiOutlineSetting to FaCog (gear for management/settings)
+		icon: <FaCog />, 
 	},
     {
         name: "Facebook Marketing",
-        icon: <FaFacebookSquare />, // Already FaIcon
+        icon: <FaFacebookSquare />, 
     },
     {
         name: "Instagram Marketing",
-        icon: <FaInstagram />, // Already FaIcon
+        icon: <FaInstagram />, 
     },
     {
         name: "LinkedIn Marketing",
-        icon: <FaLinkedin />, // Already FaIcon
+        icon: <FaLinkedin />, 
     },
 ];
