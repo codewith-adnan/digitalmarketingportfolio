@@ -52,7 +52,7 @@ const Navbar = ({ nav, handleNav }) => {
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
+							duration={2000}
 							onClick={handleNav}
 							to='home'
 							className='profile-name'>
@@ -66,7 +66,7 @@ const Navbar = ({ nav, handleNav }) => {
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
+							duration={2000}
 							to='home'
 							className='mid-links'>
 							<FaHome className='mid-icon' />
@@ -79,7 +79,7 @@ const Navbar = ({ nav, handleNav }) => {
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
+							duration={2000}
 							to='about'
 							className='mid-links'>
 							<FiUser className='mid-icon' />
@@ -92,7 +92,7 @@ const Navbar = ({ nav, handleNav }) => {
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
+							duration={2000}
 							to='skills'
 							className='mid-links'>
 							<FaLaptop className='mid-icon' />
@@ -105,7 +105,7 @@ const Navbar = ({ nav, handleNav }) => {
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
+							duration={2000}
 							to='services'
 							className='mid-links'>
 							<BiServer className='mid-icon' />
@@ -118,7 +118,7 @@ const Navbar = ({ nav, handleNav }) => {
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
+							duration={2000}
 							to='works'
 							className='mid-links'>
 							<BiBookContent className='mid-icon' />
@@ -131,7 +131,7 @@ const Navbar = ({ nav, handleNav }) => {
 							spy={true}
 							smooth={true}
 							offset={0}
-							duration={500}
+							duration={2000}
 							to='contact'
 							className='mid-links'>
 							<BiEnvelope className='mid-icon' />

@@ -11,7 +11,7 @@
 - [React.js](https://reactjs.org/) - UI Library
 - [Framer Motion](https://www.framer.com/motion/) - Animations
 - [Create React App](https://create-react-app.dev/) - Build tool
-- [Netlify](https://www.netlify.com/) - Hosting and Deployment
+- [Netlify](https://vercel.com/) - Hosting and Deployment
 
 <!-- ## How to run locally 💻 -->
 
@@ -53,4 +53,4 @@ npm run build
 
 ## Credits ✍ -->
 
-<!-- Implementation by [@Pappyjay23](https://github.com/Pappyjay23) -->
+Implementation by [@codewith-adnan](https://github.com/codewith-adnan)

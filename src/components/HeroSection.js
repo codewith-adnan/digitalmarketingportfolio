@@ -108,7 +108,7 @@ const HeroSection = ({ nav, handleNav }) => {
 					to='contact' 
 					spy={true}
 					smooth={true}
-					offset={-70} 
+					offset={0} 
 					duration={3000} 
 					className='hero-contact'
 				>
