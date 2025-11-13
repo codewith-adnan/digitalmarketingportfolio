@@ -15,30 +15,6 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 
-<!-- ## How to run locally 💻 -->
-
-<!-- Follow these steps to run My Portfolio in your local machine.
-
-### Clone this repository
-
-```bash
-git clone https://github.com/Pappyjay23/my-portfolio-1.git
-``` -->
-<!-- 
-### Navigate to directory
-
-```bash
-# cd my-portfolio-1
-```
-
-### Install NPM
-
-```bash
-npm install -->
-```
-
-
-
 ## Credits ✍ 
 
 Implementation by [@codewith-adnan](https://github.com/codewith-adnan)

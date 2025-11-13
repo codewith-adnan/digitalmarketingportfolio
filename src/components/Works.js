@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../styles/Works.css";
 import { motion } from "framer-motion";
-import { ReactData, ReactNativeData, VueData } from "../data/WorkData";
+import { InstagramData, FacebookData, PinterestData } from "../data/WorkData";
 import WorkCard from "./WorkCard";
 
 const Works = () => {
-	const [activeTab, setActiveTab] = useState("react");
+	const [activeTab, setActiveTab] = useState("instagram");
 
 	const fade = {
 		opacity: 1,
@@ -15,9 +15,9 @@ const Works = () => {
 	};
 
 	const tabData = [
-		{ id: "react", label: "React", data: ReactData },
-		{ id: "vue", label: "Vue", data: VueData },
-		{ id: "react-native", label: "React Native", data: ReactNativeData },
+		{ id: "instagram", label: "Instagram", data: InstagramData },
+		{ id: "facebook", label: "Facebook", data: FacebookData },
+		{ id: "pinterest", label: "Pinterest", data: PinterestData },
 	];
 
 	return (

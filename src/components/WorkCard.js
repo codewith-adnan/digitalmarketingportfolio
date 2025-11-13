@@ -1,12 +1,17 @@
 import React from "react";
-import { FiDownload, FiFolder, FiGithub } from "react-icons/fi";
-import { IoOpenOutline } from "react-icons/io5";
+import { FiFolder } from "react-icons/fi";
+import {
+	FaInstagram,
+	FaFacebookSquare,
+	FaPinterest,
+	FaBlogger,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const WorkCard = ({ w, tabId }) => {
 	return (
 		<div>
-			{tabId === "react-native" ? (
+			{tabId === "pinterest" ? (
 				<a
 					href={w.app}
 					download={w.title}
@@ -18,19 +23,21 @@ const WorkCard = ({ w, tabId }) => {
 							<div className='top-work'>
 								<FiFolder className='work-folder' />
 								<div className='right'>
-									{w.gitlink && (
-										<Link className='work-git' to={w.gitlink} target='_blank'>
-											<FiGithub />
+									{w.socialLink && (
+										<Link
+											className='work-git'
+											to={w.socialLink}
+											target='_blank'>
+											<FaPinterest />
 										</Link>
 									)}
 
 									<a
-										href={w.app}
-										download={w.title}
+										href='https://onlinegameandssoftware.blogspot.com'
 										target='_blank'
 										rel='noreferrer'
 										className='work-link'>
-										<FiDownload />
+										<FaBlogger />
 									</a>
 								</div>
 							</div>
@@ -53,13 +60,20 @@ const WorkCard = ({ w, tabId }) => {
 							<div className='top-work'>
 								<FiFolder className='work-folder' />
 								<div className='right'>
-									{w.gitlink && (
-										<Link className='work-git' to={w.gitlink} target='_blank'>
-											<FiGithub />
+									{w.socialLink && (
+										<Link
+											className='work-git'
+											to={w.socialLink}
+											target='_blank'>
+											{tabId === "instagram" && <FaInstagram />}
+											{tabId === "facebook" && <FaFacebookSquare />}
 										</Link>
 									)}
-									<Link className='work-link' to={w.site} target='_blank'>
-										<IoOpenOutline />
+									<Link
+										className='work-link'
+										to='https://onlinegameandssoftware.blogspot.com'
+										target='_blank'>
+										<FaBlogger />
 									</Link>
 								</div>
 							</div>
