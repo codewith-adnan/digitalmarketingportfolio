@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/About.css"
 import { motion } from "framer-motion";
-import ProfileImg from '../images/ali bajwa.PNG'
+import ProfileImg from '../images/handsome.jpg'
 
 const About = () => {  
   

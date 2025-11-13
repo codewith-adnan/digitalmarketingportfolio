@@ -32,7 +32,7 @@ export const FacebookData = [
 	},
 	{
 		title: "What's the diff? ",
-		desc: "UX: The experience! (Strategy, Research, Wireframes, Interaction) <br></br> UI: The look! (Visuals, Colours, Layouts, Typography)Master both with Devcastle",
+		desc: "UX: The experience! (Strategy, Research, Wireframes, Interaction)  UI: The look! (Visuals, Colours, Layouts, Typography)Master both with Devcastle",
 		tech: ["Facebook", "Post", "Social Media"],
 		socialLink: "https://www.facebook.com/share/p/1G5kSwS5Sd/",
 		site: "https://www.facebook.com/share/p/1G5kSwS5Sd/",

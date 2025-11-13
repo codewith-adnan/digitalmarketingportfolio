@@ -2,9 +2,9 @@ import React from 'react';
 // Remove Link if you're only using <a> tags, or keep it if you have actual internal links elsewhere
 // import { Link } from 'react-router-dom'; // Keep this only if you have internal app links
 
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa"; // Import FaPinterest
 import { BiEnvelope } from "react-icons/bi";
-import { BsGithub } from "react-icons/bs";
+// import { BsGithub } from "react-icons/bs"; // No longer needed
 
 const NavLinks = ({ handleNav }) => {
   return (
@@ -23,10 +23,10 @@ const NavLinks = ({ handleNav }) => {
         </a>
       </li>
 
-      {/* GitHub - Use <a> tag */}
+      {/* Pinterest - Replaced GitHub */}
       <li onClick={handleNav}>
-        <a href="https://github.com/Pappyjay23" target='_blank' rel="noopener noreferrer" className='nav-link'>
-          <BsGithub />
+        <a href="https://www.pinterest.com/MuhammadAliBajwa7474" target='_blank' rel="noopener noreferrer" className='nav-link'>
+          <FaPinterest /> {/* Changed to FaPinterest */}
         </a>
       </li>
 

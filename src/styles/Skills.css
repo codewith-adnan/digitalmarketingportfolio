@@ -50,7 +50,7 @@
     display: flex; /* Use flexbox to center the image */
     justify-content: center; /* Center the image horizontally */
     align-items: center; /* Center the image vertically */
-    margin-top: 2rem; /* Space from heading */
+     margin-top:-8rem;
 }
 
 .central-skill-card {
@@ -156,7 +156,7 @@ For now, the focus is on the central image.
     .central-skill-icon {
         width: 50%;
         height: 50%;
-        box-shadow: 0 0 30px 15px rgba(0, 0, 0, 1); /* Adjust shadow for smaller screens */
+    box-shadow: 0 0 40px 20px rgb(1, 6, 65); 
     }
 }
 
@@ -173,7 +173,7 @@ For now, the focus is on the central image.
     .central-skill-icon {
         width: 100px;
         height: 100px;
-        box-shadow: 0 0 20px 10px rgb(46, 46, 46); /* Further adjust shadow */
+    box-shadow: 0 0 40px 20px rgb(1, 6, 65); 
     }
 }
 
@@ -187,6 +187,7 @@ For now, the focus is on the central image.
     .central-skill-icon {
         width: 300px;
         height: 300px;
-        box-shadow: 0 0 15px 8px rgb(31, 31, 31);
+        margin-top: 4rem;
+    box-shadow: 0 0 40px 20px rgb(1, 6, 65); 
     }
 }
