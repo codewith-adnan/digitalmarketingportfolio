@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/Skills.css";
 import { motion } from "framer-motion";
-import { SkillsData } from "../data/SkillsData";
+
+import centralSkillLogo from '../images/Capture 124.PNG'; 
 
 const Skills = () => {
 	const skillEffect = {
@@ -11,6 +12,7 @@ const Skills = () => {
 			duration: 1.4,
 		},
 	};
+
 
 	return (
 		<>
@@ -25,14 +27,13 @@ const Skills = () => {
 					</motion.div>
 					<motion.div
 						whileInView={skillEffect}
-						className='skills-box'
+						className='central-skill-box' 
 						initial={{ y: "-80px", opacity: 0 }}>
-						{SkillsData.map((el, index) => (
-							<div className='skill-card' key={index}>
-								<div className='skill-icon'>{el.icon}</div>
-								<small className='skill-desc'>{el.name}</small>
+						<div className='central-skill-card'>
+							<div className='central-skill-icon'>
+								<img src={centralSkillLogo} alt="Digital Marketing Logo" /> 
 							</div>
-						))}
+						</div>
 					</motion.div>
 				</div>
 			</div>
