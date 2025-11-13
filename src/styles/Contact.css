@@ -145,3 +145,48 @@ textarea:-webkit-autofill:focus {
 		font-size: 70%;
 	}
 }
+/* Add to your existing Contact.css */
+
+.contact-info-bottom {
+    margin-top: 2rem; /* Space from the "Say Hello" section */
+    padding-top: 1.5rem; /* Padding at the top */
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* A subtle separator line */
+    width: 100%; /* Ensure it takes full width of left-box */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+}
+
+.contact-info-bottom .role-text {
+    color: var(--text-light); /* Assuming --text-light is white or light gray */
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0rem; /* Space between role and email */
+}
+
+/* You might already have .hello-links styling, but if not, ensure it's defined */
+.contact-info-bottom .hello-links {
+    color: var(--nav-blue); /* Your accent color */
+    text-decoration: none;
+    font-size: 0.6rem;
+    transition: color 0.3s ease;
+}
+
+.contact-info-bottom .hello-links:hover {
+    color: lighten(var(--nav-blue), 10%); /* Slightly lighter on hover */
+    text-decoration: underline;
+}
+
+/* Adjustments for responsiveness if necessary */
+@media (max-width: 768px) {
+    .contact-info-bottom {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+    }
+    .contact-info-bottom .role-text {
+        font-size: 12px;
+    }
+    .contact-info-bottom .hello-links {
+        font-size: 10;
+    }
+}

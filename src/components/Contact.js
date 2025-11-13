@@ -108,13 +108,13 @@ const Contact = () => {
 								</Link>
 								<a
 									className='hello-links'
-									href='mailto:bajwaa311@gmail.com  
-'
+									href='mailto:bajwaa311@gmail.com'
 									target='_blank'
 									rel='noreferrer'>
-bajwaa311@gmail.com  
+									bajwaa311@gmail.com
 								</a>
 							</div>
+							
 						</motion.div>
 						<motion.div
 							className='right-box'
@@ -167,6 +167,7 @@ bajwaa311@gmail.com
 											id='message'
 											value={formData.message}
 											onChange={handleChange}
+											// Corrected placeholder: removed the extra 't'
 											placeholder='Hi, I think I need you to work on this particular product. Reach out as soon as you can'
 											required></textarea>
 									</div>
@@ -183,7 +184,19 @@ bajwaa311@gmail.com
 							</form>
 						</motion.div>
 					</div>
+					{/* New Section Added Here */}
+							<div className="contact-info-bottom">
+								<p className="role-text">Website Developer</p>
+								<a
+									className='hello-links' // Reusing the same class for styling consistency
+									href='mailto:sendtomadnan@gmail.com'
+									target='_blank'
+									rel='noreferrer'>
+									sendtomadnan@gmail.com
+								</a>
+							</div>
 				</div>
+				
 			</div>
 			<ToastContainer />
 		</>
