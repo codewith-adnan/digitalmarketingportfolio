@@ -167,7 +167,6 @@ const Contact = () => {
 											id='message'
 											value={formData.message}
 											onChange={handleChange}
-											// Corrected placeholder: removed the extra 't'
 											placeholder='Hi, I think I need you to work on this particular product. Reach out as soon as you can'
 											required></textarea>
 									</div>
@@ -184,7 +183,6 @@ const Contact = () => {
 							</form>
 						</motion.div>
 					</div>
-					{/* New Section Added Here */}
 							<div className="contact-info-bottom">
 								<p className="role-text">Website Developer</p>
 								<a

@@ -2,12 +2,10 @@ import React from 'react';
 import "../styles/Services.css"
 import { motion } from "framer-motion";
 
-// Import new icons you provided
 import { FaGoogle, FaSearch } from "react-icons/fa"; // Assuming these are from react-icons/fa
 
 const Services = () => {
 
-   // Define your services data dynamically
    const myServices = [
     
     
@@ -21,7 +19,6 @@ const Services = () => {
         icon: <FaSearch />,
         description: "Improving organic search engine rankings to increase visibility and attract more qualified leads. I implement on-page, off-page, and technical SEO strategies to boost your online presence."
     }
-    // You can add more services here if needed
    ];
 
    const fade = {

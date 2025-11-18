@@ -6,8 +6,7 @@ import {
 	FaPinterest,
 	FaBlogger,
 } from "react-icons/fa";
-// No need to import Link from 'react-router-dom' if only using 'a' tags for external links
-// import { Link } from "react-router-dom"; // You can remove this line
+
 
 const WorkCard = ({ w, tabId }) => {
 	return (
@@ -24,7 +23,6 @@ const WorkCard = ({ w, tabId }) => {
 							<FiFolder className='work-folder' />
 							<div className='right'>
 								{w.socialLink && (
-									// Social media icon link (also an <a> tag)
 									<a
 										className='work-git'
 										href={w.socialLink} // Use href for external links
@@ -35,7 +33,6 @@ const WorkCard = ({ w, tabId }) => {
 										{tabId === "pinterest" && <FaPinterest />}
 									</a>
 								)}
-								{/* Blog icon link (always an <a> tag) */}
 								<a
 									href='https://onlinegameandssoftware.blogspot.com'
 									target='_blank'
